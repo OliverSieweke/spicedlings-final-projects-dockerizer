@@ -1,4 +1,4 @@
-# Builtime ---------------------------------------------------------------------
+# Buildtime --------------------------------------------------------------------
 FROM node:14
 
 # Create app directory
@@ -10,6 +10,7 @@ COPY package-lock.json ./
 RUN ["npm", "ci", "--only=production"]
 
 # Build app:
+COPY . .
 RUN ["npm", "run", "build"]
 
 # Bundle app source
