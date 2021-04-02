@@ -1,0 +1,36 @@
+{
+	"name": "spicedlings-final-projects-dockerizer",
+	"version": "0.1.0",
+	"description": "Spicedlings Final Projects Dockerizer",
+	"author": "Oliver Sieweke <oliver@sieweke.eu> (https://www.oliversieweke.com/)",
+	"bin": "./bin/dockerize.js",
+	"directories": {
+		"lib": "bin",
+		"doc": "README.md"
+	},
+	"engines": {
+		"node": ">=14"
+	},
+	"repository": {
+		"type": "git",
+		"url": "github:/OliverSieweke/spicedlings-final-projects-dockerizer"
+	},
+	"keywords": [
+		"Spiced Academy",
+		"Final",
+		"Projects",
+		"Spicedlings",
+		"Docker"
+	],
+	"homepage": "https://github.com/OliverSieweke/spicedlings-final-projects-dockerizer#readme",
+	"bugs": {
+		"url": "https://github.com/OliverSieweke/spicedlings-final-projects-dockerizer/issues",
+		"email": "oliver@sieweke.eu"
+	},
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"eslint": "^7.23.0",
+		"eslint-config-prettier": "^8.1.0",
+		"prettier": "2.2.1"
+	}
+}
