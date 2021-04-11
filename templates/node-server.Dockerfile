@@ -1,5 +1,6 @@
 # Buildtime --------------------------------------------------------------------
 FROM node:14
+ENV NODE_ENV=production
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -18,5 +19,4 @@ COPY . .
 
 # Runtime ----------------------------------------------------------------------
 EXPOSE 8080
-ENV NODE_ENV=production
 CMD ["npm", "run" , "start" ]
